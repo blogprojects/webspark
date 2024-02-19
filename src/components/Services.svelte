@@ -11,12 +11,12 @@
 				<span class="border-b-2 border-neutral-500 text-4xl font-extrabold text-neutral-500">
 					01
 				</span>
-				<h3 class="my-4 text-2xl font-medium">Custom Website Development</h3>
+				<h3 class="my-4 text-2xl font-medium">Custom Website <br /> Development</h3>
 				<p class="mb-4 text-sm">
-					From custom design to user-friendly functionality, we provide top-of-the-line website
-					development solutions that cater to your unique business needs. With a focus on delivering
-					visually stunning and highly responsive websites, we make sure your business stands out
-					from the competition.
+					We provide top-of-the-line website development solutions that cater to your unique
+					business needs. With a focus on delivering visually stunning, user-friendly, and SEO
+					optimized websites, we are able to deliver results that support your business' ongoing
+					growth and success
 				</p>
 			</li>
 
@@ -24,12 +24,12 @@
 				<span class="border-b-2 border-neutral-500 text-4xl font-extrabold text-neutral-500">
 					02
 				</span>
-				<h3 class="my-4 text-2xl font-medium">Site Management & Hosting</h3>
+				<h3 class="my-4 text-2xl font-medium">Site Management <br /> & Hosting</h3>
 				<p class="mb-4 text-sm">
-					We handle all aspects of website management, including hosting, regular updates,
-					maintenance, and security checks, so you can focus on running your business. With our
-					proactive approach to website management, we ensure that your website stays up-to-date,
-					secure, and optimized for maximum performance.
+					We offer full-service website management and hosting solutions to improve your site's
+					uptime, security, and performance with regular updates. By managing and securing the
+					technical aspects of your website operations, we empower you to focus entirely on running
+					your business.
 				</p>
 			</li>
 
@@ -37,12 +37,12 @@
 				<span class="border-b-2 border-neutral-500 text-4xl font-extrabold text-neutral-500">
 					03
 				</span>
-				<h3 class="my-4 text-2xl font-medium">Search Engine Optimization</h3>
+				<h3 class="my-4 text-2xl font-medium">Digital Marketing <br /> Services</h3>
 				<p class="mb-4 text-sm">
-					Our SEO services are designed to improve your website's visibility and rank higher on
-					search engine results pages. We use proven and advanced SEO techniques to boost your
-					online presence. With our SEO services, your website is optimized to attract more organic
-					traffic, and ultimately increase your revenue.
+					Our comprehensive digital marketing solutions are designed to increase your brand's reach,
+					engagement, and conversions. Utilizing innovative online strategies tailored for your
+					unique business, we connect you with your ideal customers across multiple digital
+					channels.
 				</p>
 			</li>
 		</ul>

@@ -15,7 +15,7 @@
 <div class="flex">
 	<input type="checkbox" id="drawer-toggle" class="peer sr-only relative" />
 
-	<button class="inline-block text-3xl text-gray-50 hover:text-gray-50">
+	<button class="mb-1.5 inline-block text-3xl text-gray-50 hover:text-gray-50">
 		<label for="drawer-toggle">
 			<Icon icon="tabler:menu-deep" />
 		</label>

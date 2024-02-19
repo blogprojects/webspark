@@ -28,7 +28,7 @@
 					</li>
 					<li class="flex items-center gap-2.5">
 						<Icon icon="tabler:circle-check" />
-						<p>1 Custom Page</p>
+						<p>Custom One-page Website</p>
 					</li>
 					<li class="flex items-center gap-2.5">
 						<Icon icon="tabler:circle-check" />
@@ -44,7 +44,7 @@
 					</li>
 				</ul>
 
-				<a href="/get-website">
+				<a href="/order/process">
 					<button
 						class="w-48 rounded-full border-2 bg-black py-2 text-xl
            				font-medium tracking-wide text-white hover:bg-slate-800 active:bg-slate-950"
@@ -60,9 +60,9 @@
 			>
 				<div class="w-full border-b border-sky-50 pb-4 text-center">
 					<h4 class="mb-2 rounded-sm bg-sky-100 p-2 text-xl font-medium tracking-widest">
-						STANDARD
+						PROFESSIONAL
 					</h4>
-					<span class="py-4 text-4xl font-bold lg:text-5xl"> $499 </span>
+					<span class="py-4 text-4xl font-bold lg:text-5xl"> $599 </span>
 				</div>
 				<ul class="my-4 font-medium leading-8 lg:my-3">
 					<li class="mb-1 text-base font-normal tracking-wider text-slate-800">
@@ -74,7 +74,7 @@
 					</li>
 					<li class="flex items-center gap-2.5">
 						<Icon icon="tabler:circle-check" />
-						<p>Up to 4 Custom Pages</p>
+						<p>Up to 6 Custom Pages</p>
 					</li>
 					<li class="flex items-center gap-2.5">
 						<Icon icon="tabler:circle-check" />
@@ -82,11 +82,11 @@
 					</li>
 					<li class="flex items-center gap-2.5">
 						<Icon icon="tabler:circle-check" />
-						<p>On-page SEO setup</p>
+						<p>On-page SEO Optimization</p>
 					</li>
 				</ul>
 
-				<a href="/get-website">
+				<a href="/order/process">
 					<button
 						class="w-48 rounded-full border-2 bg-black py-2 text-xl
            				font-medium tracking-wide text-white hover:bg-slate-800 active:bg-slate-950"
@@ -97,8 +97,8 @@
 			</div>
 
 			<div
-				class="mx-4 my-12 grid h-full place-items-center rounded-sm border bg-neutral-800
-          			bg-opacity-60 p-8 md:mx-32 lg:mx-0"
+				class="md:mx-32lg:mx-0 mx-4 my-12 grid h-full place-items-center rounded-sm border
+				 bg-gradient-to-br from-slate-700 to-black p-8"
 			>
 				<div
 					class="flex h-40 w-40 flex-col items-center justify-center gap-2.5
@@ -111,11 +111,11 @@
 				</div>
 
 				<p class="my-8 text-center text-xl lg:my-2">
-					Do you have a unique website project tailored to your own custom requirements in mind?
+					Do you have a unique website project tailored to your own special requirements in mind?
 					Let's discuss it, and bring your vision to life.
 				</p>
 
-				<a href="#contact">
+				<a href="/contact">
 					<button
 						class="w-48 rounded-full border bg-gray-100 py-2 text-xl font-medium
               			tracking-wide text-black hover:bg-slate-300 active:bg-white"

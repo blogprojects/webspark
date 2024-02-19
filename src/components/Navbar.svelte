@@ -1,22 +1,21 @@
 <script>
-	import Icon from '@iconify/svelte';
 	import MobileMenu from './MobileMenu.svelte';
 
 	const navigation = [
 		{ href: '/', title: 'Home' },
 		{ href: '/#services', title: 'Services' },
 		{ href: '/#packages', title: 'Packages' },
-		{ href: '/#projects', title: 'Projects' },
-		{ href: '/contact', title: 'Contact' }
+		{ href: '/#projects', title: 'Projects' }
 	];
 </script>
 
 <nav class="width">
 	<div class="flex items-center justify-between">
 		<a href="/">
-			<figure>
-				<img src="/main/logo-black.jpg" alt="site logo" class="block w-32" />
-			</figure>
+			<div class="flex items-center justify-center space-x-2">
+				<img src="/logo.jpg" alt="site logo" class="block w-10 rounded-full" />
+				<p class="text-xl font-medium tracking-widest text-gray-200">WEBSPARK</p>
+			</div>
 		</a>
 
 		<ul class="hidden space-x-8 lg:flex">
@@ -30,12 +29,12 @@
 		</ul>
 
 		<div class="hidden lg:block">
-			<a href="/#packages">
+			<a href="/contact">
 				<button
 					class="w-40 rounded-sm border-2 border-sky-300 p-2 font-bold uppercase
               tracking-wider text-sky-300 hover:bg-sky-300 hover:text-black"
 				>
-					<span>Get Website</span>
+					<span>Contact Us</span>
 				</button>
 			</a>
 		</div>

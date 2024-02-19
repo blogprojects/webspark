@@ -10,7 +10,7 @@
 					class="inline-block bg-gradient-to-r from-sky-300 via-sky-200 to-white
             bg-clip-text font-bold text-transparent"
 				>
-					We Build Premium Websites For Small Businesses
+					We Build Premium <br /> Custom Websites <br /> For Businesses
 				</span>
 			</h1>
 
@@ -39,15 +39,15 @@
 			/>
 
 			<div
-				class="relative bottom-48 z-10 mx-4 rounded-sm border-4 border-black bg-gray-300 p-6 text-black
+				class="relative bottom-48 z-10 mx-4 rounded-sm border-8 border-black bg-slate-700 p-6 text-white
         md:bottom-72 md:left-72 md:w-96 lg:absolute lg:bottom-auto lg:left-auto lg:right-24 lg:mx-0"
 			>
 				<p
 					class="my-2.5 rounded-sm bg-black p-4 text-[1.385rem] font-semibold tracking-wide text-white"
 				>
-					Budget-friendly Web Solutions Is What We Do
+					Making Quality Web Solutions Accessible
 				</p>
-				<p class="mt-4 text-lg font-medium">
+				<p class="mt-4 text-lg">
 					We understand the unique challenges faced by businesses on a tight budget, and provide
 					affordable starter websites to help boost your visiblity and growth.
 				</p>
