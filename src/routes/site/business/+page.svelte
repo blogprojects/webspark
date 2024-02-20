@@ -4,6 +4,7 @@
 	export let data;
 
 	const posts = data.props.request.posts;
+	const morePosts = data.props.newRequest.posts;
 
 	console.log(data);
 </script>
@@ -13,6 +14,16 @@
 
 	<ul class="grid lg:grid-cols-4">
 		{#each posts as post}
+			<li class="border-b border-gray-800 py-6 text-lg font-medium uppercase hover:text-gray-300">
+				<a href={`/${post.slug}`}>
+					{post.business}
+				</a>
+			</li>
+		{/each}
+	</ul>
+
+	<ul class="grid lg:grid-cols-4">
+		{#each morePosts as post}
 			<li class="border-b border-gray-800 py-6 text-lg font-medium uppercase hover:text-gray-300">
 				<a href={`/${post.slug}`}>
 					{post.business}
