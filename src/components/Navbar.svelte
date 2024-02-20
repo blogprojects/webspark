@@ -31,10 +31,10 @@
 		<div class="hidden lg:block">
 			<a href="/contact">
 				<button
-					class="w-40 rounded-sm border-2 border-sky-300 p-2 font-bold uppercase
+					class="rounded-sm border-2 border-sky-300 px-6 py-2 font-bold uppercase
               tracking-wider text-sky-300 hover:bg-sky-300 hover:text-black"
 				>
-					<span>Contact Us</span>
+					<span>Get A Free Quote</span>
 				</button>
 			</a>
 		</div>

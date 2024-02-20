@@ -5,7 +5,7 @@ export async function GET({ setHeaders }) {
 	const endpoint = import.meta.env.VITE_HYGRAPH_API;
 	const hygraph = new GraphQLClient(endpoint);
 
-	const query = gql`
+	const queryOne = gql`
 		query GetAllPosts {
 			posts(orderBy: updatedAt_DESC, first: 10000) {
 				title
@@ -16,15 +16,29 @@ export async function GET({ setHeaders }) {
 		}
 	`;
 
-	const data = await hygraph.request(query);
+	const queryTwo = gql`
+		query GetAllPosts {
+			posts(orderBy: updatedAt_DESC, skip: 100, first: 10000) {
+				title
+				slug
+				business
+				updatedAt
+			}
+		}
+	`;
+
+	const data = await hygraph.request(queryOne);
+	const moreData = await hygraph.request(queryTwo);
+
+	console.log(data);
 
 	setHeaders({
 		'Content-Type': 'application/xml'
 	});
 
 	const posts = data.posts;
+	const morePosts = moreData.posts;
 	const site = 'https://www.webspark.pro';
-	const pages = ['blog'];
 
 	const sitemap = `<?xml version="1.0" encoding="UTF-8" ?>
         <urlset
@@ -40,17 +54,18 @@ export async function GET({ setHeaders }) {
             <changefreq>daily</changefreq>
             <priority>0.7</priority>
         </url>
-        ${pages
+        ${posts
 					.map(
-						(page) =>
+						(post) =>
 							`<url>
-                <loc>${site}/${page}</loc>
-                <changefreq>daily</changefreq>
-                <priority>0.7</priority>
+                <loc>${site}/${post.slug}</loc>
+				<changefreq>weekly</changefreq>
+				<lastmod>${new Date(post.updatedAt).toISOString().split('T')[0]}</lastmod>
+				<priority>0.7</priority>
             </url>`
 					)
 					.join('')}
-        ${posts
+        ${morePosts
 					.map(
 						(post) =>
 							`

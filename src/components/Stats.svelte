@@ -6,7 +6,7 @@ to-neutral-950 px-4 py-12 text-white"
 	<div class="px-6 md:px-12 lg:px-24">
 		<div class="my-6">
 			<h2 class="text-3xl font-bold tracking-widest text-sky-300 lg:text-4xl">
-				LET'S BOOST YOUR WEB PRESENCE
+				LET'S ELEVATE YOUR WEB PRESENCE
 			</h2>
 			<p class="border-b border-neutral-500 py-2.5 text-lg tracking-wide text-neutral-500">
 				Why you need a good website for your business

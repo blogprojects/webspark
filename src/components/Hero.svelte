@@ -39,7 +39,7 @@
 			/>
 
 			<div
-				class="relative bottom-48 z-10 mx-4 rounded-sm border-8 border-black bg-slate-700 p-6 text-white
+				class="relative bottom-48 z-10 mx-4 rounded-sm border-8 border-black bg-gradient-to-r from-sky-950 via-sky-900 to-sky-800 p-6 text-white
         md:bottom-72 md:left-72 md:w-96 lg:absolute lg:bottom-auto lg:left-auto lg:right-24 lg:mx-0"
 			>
 				<p

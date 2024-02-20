@@ -9,11 +9,11 @@
 				class="text-gray mb-4 pb-4 text-3xl
                     font-bold tracking-widest lg:text-4xl"
 			>
-				OUR PROCESS
+				OUR WORK PROCESS
 			</h2>
 
 			<p>
-				At Webspark+, transparency is at the core of what we do. We encourage all our prospective
+				At Webspark, transparency is at the core of what we do. We encourage all our prospective
 				clients to get familiar with our working process to ensure we are all on the same page from
 				start to finish.
 			</p>
